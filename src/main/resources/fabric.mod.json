@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "fastcutter",
+	"version": "${version}",
+	"name": "Fastcutter",
+	"description": "Space to reselect stonecutter craft",
+	"authors": [
+		"Daniel99j"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC-BY-NC-SA-4.0",
+	"icon": "assets/fastcutter/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.daniel99j.fastcutter.StonecutterFastCraft"
+		]
+	},
+	"mixins": [
+		"fastcutter.mixins.json"
+	],
+	"depends": {}
+}
